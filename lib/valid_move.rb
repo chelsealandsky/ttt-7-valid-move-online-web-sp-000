@@ -6,8 +6,8 @@ def valid_move?(board,index)
     elsif (board[index] == "" || board[index] == " ")
         valid = true
     else
-        valid = nil 
-    end      
+        valid = nil
+    end
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
@@ -19,4 +19,3 @@ def position_taken?(board, index)
         taken = true
     end
 end
-
